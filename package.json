@@ -1,27 +1,20 @@
 {
-  "name": "seo-scraper",
+  "name": "article-research",
   "version": "1.0.0",
-  "description": "A tool to search Google, extract webpage metadata, and find backlinks",
-  "main": "index.js",
+  "description": "Tool for researching potential article submission sites",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "search": "node index.js --keywords",
-    "backlinks": "node index.js --find-backlinks --target-domain"
+    "start": "node src/index.js",
+    "analyze-submissions": "node src/analyzeSubmissions.js"
   },
-  "keywords": [
-    "seo",
-    "scraper",
-    "metadata",
-    "backlinks",
-    "google-search"
-  ],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^1.4.0",
+    "axios": "^1.6.2",
     "cheerio": "^1.0.0-rc.12",
     "csv-writer": "^1.6.0",
-    "fs-extra": "^11.1.1",
-    "googleapis": "^118.0.0"
+    "googleapis": "^129.0.0",
+    "xlsx": "^0.18.5",
+    "url-parse": "^1.5.10",
+    "dotenv": "^16.3.1"
   }
 }
