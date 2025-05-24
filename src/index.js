@@ -21,7 +21,6 @@ const main = async () => {
       'https://www.kidrovia.com/top-korean-skincare-products-for-kids/',
       'https://www.kidrovia.com/top-10-kids-brands-from-spain-a-fashion-guide/',
       'https://www.kidrovia.com/top-italian-brands-for-kids/',
-      'https://www.kidrovia.com/',
       'https://www.kidrovia.com/kids-skin-care-products/',
       'https://www.kidrovia.com/top-10-trendiest-fashion-brands-for-teenagers/',
       'https://www.kidrovia.com/the-best-online-parenting-magazines-for-modern-parents/'
